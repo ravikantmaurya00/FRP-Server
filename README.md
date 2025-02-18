@@ -1,4 +1,4 @@
-# FRPS-Server
+# FRP-Server
 FRP (Fast Reverse Proxy) is a high-performance reverse proxy application designed to enable secure and efficient tunneling of network traffic over the internet. It allows users to expose local servers behind NAT (Network Address Translation) or firewalls to the public network without requiring port forwarding.
 
 ## Key Features of FRP Server:
