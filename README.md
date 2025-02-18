@@ -1,4 +1,22 @@
 # FRPS-Server
+FRP (Fast Reverse Proxy) is a high-performance reverse proxy application designed to enable secure and efficient tunneling of network traffic over the internet. It allows users to expose local servers behind NAT (Network Address Translation) or firewalls to the public network without requiring port forwarding.
+
+## Key Features of FRP Server:
+- **TCP, UDP, HTTP, and HTTPS Support** – Supports multiple protocols for tunneling.
+- **Reverse Proxy** – Helps in exposing local services to remote clients.
+- **Custom Domains & Subdomains** – Allows binding domains for services.
+- **Encryption & Compression** – Secures and optimizes data transmission.
+- **Authentication & ACL (Access Control List)** – Ensures secure access control.
+- **P2P Mode** – Enables direct connections between clients.
+- **Multi-user & Load Balancing** – Can handle multiple clients efficiently.
+## How FRP Works?
+- FRP Client: Runs on the local machine, forwarding traffic to the FRP server.
+- FRP Server: Hosted on a public server, it acts as a gateway to route traffic from the internet to the internal network.
+## Use Cases:
+- Accessing a local development server from the internet.
+- Hosting services (e.g., web servers, databases) behind a firewall.
+- Secure remote access to internal systems.
+- IoT device communication over NAT.
 ## Step to run FRP Server in AWS EC2 Instance
 - Step 1: Log in to your AWS Account and open EC2 Instance .
 - Step 2: Then Launch  Instance .
